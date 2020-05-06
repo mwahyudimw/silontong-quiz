@@ -1,0 +1,53 @@
+.sidebar-container {
+    width: 300px;
+    height: 273px;
+    display: inline-block;
+    margin-top: 15px;
+    background: #fff;
+    // margin-right: auto;
+    .kotak-salmon {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 3%;
+        color: #fff;
+        cursor: pointer;
+        float: left;
+        border-radius: 3px;
+        text-decoration: none;
+        background: gray;
+    }
+    .kotak-green {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        margin: 5px;
+        color: #000;
+        cursor: pointer;
+        float: left;
+        text-decoration: none;
+        background: greenyellow;
+    }
+    .active {
+        background: teal;
+    }
+    .kotak-salmon:hover {
+        background: lightseagreen;
+    }
+    .kotak-green:hover {
+        background: lightseagreen;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .sidebar-container {
+        margin: 30px auto;
+        width: 300px;
+        display: block;
+        z-index: 100;
+    }
+}
