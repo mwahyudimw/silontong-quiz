@@ -14,8 +14,9 @@ body {
     .card {
         border: solid 0.5px rgba(0, 0, 0, 0.1);
         padding: 30px;
-        width: 800px;
-        margin: 50px;
+        width: 65%;
+        height: 450px;
+        margin-left: 5%;
         box-sizing: border-box;
         background: #fff;
         border-radius: 3px;
@@ -26,7 +27,6 @@ body {
             line-height: 1.5em;
         }
         .value {
-            margin-left: 50px;
             cursor: pointer;
         }
         .choices {
@@ -45,7 +45,7 @@ body {
     .flex {
         width: 100%;
         height: auto;
-        margin: 0px;
+        margin-top: -60px;
         display: block;
         .choices {
             margin-bottom: 10px;

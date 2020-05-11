@@ -65,8 +65,8 @@ const Header = () => {
 							Silontong Quiz
 						</Box>
 					</Typography>
-					<Button color="inherit" fontWeight="fontWeightBold" m={1} onClick={handleOpen}>
-						About
+					<Button color="inherit" style={{ fontWeight:"bold" }}  fontWeight="fontWeightBold" m={1} onClick={handleOpen}>
+						Tentang Kami
 					</Button>
 					<Modal
 						aria-labelledby="transition-modal-title"

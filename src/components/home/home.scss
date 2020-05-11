@@ -3,6 +3,7 @@
     box-shadow: 0 0 5px #ccc;
     padding: 30px;
     width: 1000px;
+    height: 370px;
     margin: 50px auto;
     box-sizing: border-box;
     background: #fff;
@@ -34,7 +35,7 @@
         font-family: "Roboto", sans-serif;
     }
     ul {
-        list-style-type: lower-alpha;
+        list-style-type: decimal;
         margin-left: 60px;
         li {
             font-size: 16px;
@@ -49,6 +50,7 @@
 @media screen and (max-width: 800px) {
     .card-home {
         width: 100%;
+        height: auto;
         margin-top: 0;
         border-radius: 0px;
         .wrapper-home {
